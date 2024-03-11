@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Josefin+Sans:wght@300&family=Ojuju:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+  font-family: "Ojuju", sans-serif;
+}
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(45deg,black,rgb(126, 123, 123));
+
+}
+.calculator{
+    border:1px solid rgb(98, 97, 97);
+
+    border-radius:16px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgb(76, 75, 75,0.5);
+
+padding:10px;
+}
+input{
+    
+     border:none;
+ 
+    margin:10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgb(76, 75, 75,0.5);
+    font-size:26px;
+    cursor:pointer;
+    text-align:right;
+    color:white;
+    width: 200px; 
+    padding: 12px;
+
+   
+
+}
+input::placeholder{
+    color:aliceblue;
+   
+}
+button{
+    border:none;
+    width:60px;
+    height:60px;
+    margin:10px;
+    border-radius: 50%;
+    background: transparent;
+    color:white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px  rgba(43, 42, 42, 0.4);
+    cursor: pointer;
+}
+.equalBtn{
+    background-color: orangered;
+}
+.operator{
+    color:green;
+}
